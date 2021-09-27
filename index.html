@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--==================== FONT AWESOME ====================-->
+    <script src="https://kit.fontawesome.com/8f223001a5.js" crossorigin="anonymous"></script>
+
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Portfolio Moreno</title>
+</head>
+<body>
+
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Moreno</a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class="uil uil-estate nav__icon"></i> Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class="uil uil-user nav__icon"></i> About
+                            </a>
+                        </li>
+                        <!-- <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="uil uil-file-alt nav__icon"></i> Skills
+                            </a>
+                        </li> -->
+                        <!-- <li class="nav__item">
+                            <a href="#services" class="nav__link">
+                                <i class="uil uil-briefcase-alt nav__icon"></i> Services
+                            </a>
+                        </li> -->
+                        <li class="nav__item">
+                            <a href="#portfolio" class="nav__link">
+                                <i class="uil uil-scenery nav__icon"></i> Portfolio
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class="uil uil-message nav__icon"></i> Contact
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://www.github.com/" target="_blank" class="home__social-icon">
+                            <i class="uil uil-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/" target="_blank" class="home__social-icon">
+                            <i class="uil uil-linkedin"></i>
+                        </a>
+                        <a href="https://www.facebook.com/" target="_blank" class="home__social-icon">
+                            <i class="uil uil-facebook-f"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__img">
+                        <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                <image class="home__blob-img" x='12' y='18' href="assets/img/mor.png"/>
+                            </g>
+                        </svg>
+                    </div>
+
+                    <div class="home__data">
+                        <p class="home__description">Hello, I am
+                        </p>
+                        <h1 class="home__title">Moreno Astore</h1>
+                        <h3 class="home__subtitle">Front-end Developer</h3>
+                        <!-- <p class="home__description">Junior level experience in web design and development
+                            knowledge, producing quality work.
+                        </p> -->
+                        <a href="#" class="button button--flex">
+                            Download CV<i class="uil uil-download-alt button__icon"></i>
+                        </a>
+                        <a href="#" class="button button--flex">
+                            View CV<i class="uil uil-download-alt button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                        <span class="home__scroll-name">Scroll down</span>
+                        <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle">My introduction</span>
+            <div class="about__container container grid">
+                <div class="about__content">
+                    <div class="about__img">
+                        <img src="assets/img/skydive.JPG" alt="">
+                    </div>
+                    <div class="about__info">
+                        <h3 class="about__title">Webdevelopment</h3>
+                        <p class="about__text">
+                            Hello world! My name is Moreno and I'm a passionate front-end
+                            developer from Landgraaf. Currently trying to master JavaScript
+                            while getting comfortable with React and frameworks like Material UI.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="about__til">
+                <div class="skill">
+                    <div class="icon-container">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h1>Front-End</h1>
+                    <p>
+                        Creating websites and applications that are user-friendly
+                        and look pretty is what I love about front-end.
+                    </p>
+                </div>
+                <div class="skill">
+                    <div class="icon-container">
+                        <i class="fab fa-js-square"></i>
+                    </div>
+                    <h1>JavaScript</h1>
+                    <p>
+                        The more I learn about JavaScript, the more I fall in love
+                        with all the possibilities you can do with it.
+                    </p>
+                </div>
+                <div class="skill">
+                    <div class="icon-container">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h1>Learning</h1>
+                    <p>
+                        Lifelong learner, always eager to add a new concept,
+                        programming language or a coding trick to my skillset.
+                    </p>
+                </div>
+            </div> -->
+        </section>
+
+        <!--==================== THINGS I LOVE ====================-->
+        <section class="til section" id="til">
+            <h2 class="section__title">Things I Love</h2>
+            <div class="things__i__love">
+                <div class="skill">
+                    <div class="icon-container">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h1>Front-End</h1>
+                    <p>
+                        Creating websites and applications that are user-friendly
+                        and look pretty is what I love about front-end.
+                    </p>
+                </div>
+                <div class="skill">
+                    <div class="icon-container">
+                        <i class="fab fa-js-square"></i>
+                    </div>
+                    <h1>JavaScript</h1>
+                    <p>
+                        The more I learn about JavaScript, the more I fall in love
+                        with all the possibilities you can do with it.
+                    </p>
+                </div>
+                <div class="skill">
+                    <div class="icon-container">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h1>Learning</h1>
+                    <p>
+                        Lifelong learner, always eager to add a new concept,
+                        programming language or a coding trick to my skillset.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== PORTFOLIO ====================-->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">Portfolio</h2>
+            <span class="section__subtitle">Most recent work</span>
+            <div class="portfolio__container container swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <!--==================== PORTFOLIO 1 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio1.jpg" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Modern Website</h3>
+                            <p class="portfolio__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Atque a iusto enim sequi eligendi maxime voluptate dolorum commodi.
+                            </p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                Demo<i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                Github<i class="uil uil-github button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--==================== PORTFOLIO 2 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Brand Design</h3>
+                            <p class="portfolio__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Atque a iusto enim sequi eligendi maxime voluptate dolorum commodi.
+                            </p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                Demo<i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                Github<i class="uil uil-github button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--==================== PORTFOLIO 3 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio3.jpg" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Online Store</h3>
+                            <p class="portfolio__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Atque a iusto enim sequi eligendi maxime voluptate dolorum commodi.
+                            </p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                Demo<i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                Github<i class="uil uil-github button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!--==================== PROJECT IN MIND ====================-->
+        <!-- <section class="project section">
+            <div class="project__bg">
+                <div class="project__container container grid">
+                    <div class="project__data">
+                        <h2 class="project__title">You have a new project</h2>
+                        <p class="project__description">Contact me now and get 30% discount on your new project.</p>
+                        <a href="#contact" class="button button--flex button--white">
+                            Contact Me <i class="uil uil-message project__icon button__icon"></i>
+                        </a>
+                    </div>
+                    <img src="assets/img/mor.png" alt="" class="project__img">
+                </div>
+            </div>
+        </section> -->
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Moreno</h1>
+                    <span class="footer__subtitle">Front-end Developer</span>
+                </div>
+                <ul class="footer__links">
+                    <li>
+                        <a href="#home" class="footer__links">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about" class="footer__links">About</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="footer__links">Portfolio</a>
+                    </li>
+                </ul>
+                <div class="footer__socials">
+                    <a href="https://www.github.com/" target="_blank" class="footer__social">
+                        <i class="uil uil-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/" target="_blank" class="footer__social">
+                        <i class="uil uil-linkedin"></i>
+                    </a>
+                    <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                        <i class="uil uil-facebook"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--==================== SCROLL UP ====================-->
+    <a href="#" class="scrollup" id="scroll-up"><i class="uil uil-arrow-up scrollup__icon"></i></a>
+
+    <!--==================== CIRCLETYPE ====================-->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/circletype@2.3.0/dist/circletype.min.js"></script> -->
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+    
+</body>
+</html>
